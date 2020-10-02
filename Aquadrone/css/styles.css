@@ -9,6 +9,15 @@ body {
     font-family: 'Roboto', 'sans-serif';
 }
 
+a {
+    color: black;
+}
+
+/* DONT do this to h3 (used for names in MTT) */
+h1, h2, h4 {
+    font-weight: 700;
+}
+
 
 .navbar {
     margin-bottom: 2rem;
@@ -117,6 +126,10 @@ h1 {
     padding: 10%;
 }
 
+.fa {
+    padding: 0.5rem;
+}
+
 
 /* ********************************************* */
 
@@ -140,6 +153,17 @@ h1 {
 #MTT {
     background-image: linear-gradient(to bottom right, #f5f7fa, #dceaff);
     text-align: center;
+}
+
+
+.name-tag{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.chief-tag {
+    padding-bottom: 1.2rem;
 }
 
 
